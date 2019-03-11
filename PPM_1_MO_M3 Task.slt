@@ -1,0 +1,27 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "PPM_1_MO_M3 Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "regular",
+        "llfeed_token": "dgKzT6oElESxpIJ1b8xoOrIPhBXdo0rE",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "pipeline_parameters": {
+            "ID": "930749",
+            "PATH": "file:///\\\\ik3a8021.wmikea.com/input/PPM/"
+        },
+        "pipeline_path": "PPM_1_MO_M3",
+        "snaplex_path": "GroundPlex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

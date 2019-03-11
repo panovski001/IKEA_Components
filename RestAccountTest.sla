@@ -1,0 +1,30 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restbasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "ikea_comp_test"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "RestAccountTest"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "fp": "130a83cb9e80e4230b013881ad50e26d5d7745d55cf52d11c4a237bdda1265a8",
+                "key": "account-cloud-managed-5c46bfd317f60c09d026aecf-2019-01-22T07:05:40-714239+00:00",
+                "sym_iv": "mPSPHd4sv8pGuPDhSqxCJw==",
+                "sym_key": "cFHZON8ZgGt6KzRDw+z2v2zbOS1rGEad10xr6GBEH4fFumRmCvys5MIjdZV3sIngjRZmwoCqNHVAWGmLEPwXSbZpi6HvBK/bkIdc0reDojfrVo2kaC2jlYKYBWwO39YgPRz2qQ8z2txTEcPMhKtuIemgIOnAbV9TYR6O07mf8uYtUmZLpDLHHlDWglyyX6RrTiYCg9c7uiwbyex9/ouIqcFGq1rsz4fPncP7S0KrAIkmXO770OvX8zu531pf22JvMNaRT9kTgdeI4N/hrZbx07hS2DT88PMLeki5ADbKj8RRXBD1WOk2Te5J8Pcy4kZGjOpIPedZjMym6bpcnwkjTQ==",
+                "value": "48O6BvhvK/M1NVkRqR60eQ=="
+            },
+            "username": {
+                "value": "wmmec"
+            }
+        },
+        "view_serial": 100
+    }
+}

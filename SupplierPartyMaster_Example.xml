@@ -1,0 +1,115 @@
+<SyncSupplierPartyMaster xmlns="http://schema.infor.com/InforOAGIS/2" releaseID="9.2" versionID="2.9.1" systemEnvironmentCode="Production" languageCode="GB">
+    <ApplicationArea>
+        <Sender>
+            <LogicalID schemeVersionID="15.5.2.001">lid://IK3A8021.wmikea.com</LogicalID>
+            <ComponentID schemeVersionID="MCP6-1514-01">M3BE</ComponentID>
+            <ConfirmationCode>OnError</ConfirmationCode>
+        </Sender>
+        <CreationDateTime>2019-02-18T15:14:09.585Z</CreationDateTime>
+        <BODID>ab251529-0c0c-4721-a58c-4cf93823aaca</BODID>
+    </ApplicationArea>
+    <DataArea>
+        <Sync>
+            <AccountingEntityID>100_</AccountingEntityID>
+            <ActionCriteria>
+                <ActionExpression actionCode="Replace"/>
+            </ActionCriteria>
+        </Sync>
+        <SupplierPartyMaster>
+            <PartyIDs>
+                <ID accountingEntity="100_" lid="lid://IK3A8021.wmikea.com">53018271</ID>
+                <DisplayID>53018271</DisplayID>
+                <TaxID schemeName="CountryIdentificationNumber">5562778851</TaxID>
+                <TaxID schemeName="TaxIdentificationNumber">556277885101</TaxID>
+                <SCACID/>
+            </PartyIDs>
+            <LastModificationDateTime>2019-02-18T15:02:09Z</LastModificationDateTime>
+            <LastModificationPerson>
+                <IDs>
+                    <ID accountingEntity="100_">NIAND24</ID>
+                </IDs>
+                <Name>Niclas Andersson/iStone</Name>
+                <UserID accountingEntity="100_">NIAND24</UserID>
+            </LastModificationPerson>
+            <Name>Bloms AB.</Name>
+            <Location>
+                <Address type="text">
+                    <ID accountingEntity="100_">1-POSTAL</ID>
+                    <AddressLine sequence="1">Källbäcksrydsgatan 8</AddressLine>
+                    <AddressLine sequence="3">507 42 Borås</AddressLine>
+                    <CountrySubDivisionCode listID=""/>
+                    <CountryCode listID="Countries">SE</CountryCode>
+                    <Status>
+                        <EffectiveDateTime>2016-01-01</EffectiveDateTime>
+                    </Status>
+                </Address>
+            </Location>
+            <Communication sequence="1" preferredIndicator="false">
+                <ChannelCode listID="Communication Channels">Phone</ChannelCode>
+                <UseCode listID="Communication Use Codes">Office</UseCode>
+                <DialNumber>033-157075</DialNumber>
+                <Preference>
+                    <Indicator>false</Indicator>
+                </Preference>
+            </Communication>
+            <Contact>
+                <Communication preferredIndicator="false">
+                    <ChannelCode listID="Communication Channels">Phone</ChannelCode>
+                    <UseCode listID="Communication Use Codes">Office</UseCode>
+                    <DialNumber>033-157075</DialNumber>
+                    <Preference>
+                        <Indicator>false</Indicator>
+                    </Preference>
+                </Communication>
+            </Contact>
+            <PaymentTermID>100</PaymentTermID>
+            <PaymentMethodCode listID="Payment Methods">BGS</PaymentMethodCode>
+            <FinancialParty>
+                <FinancialAccount>
+                    <BBANID>53018271</BBANID>
+                    <IBANID/>
+                    <Name>BGS</Name>
+                    <Status>
+                        <Code name="IsDefault">true</Code>
+                    </Status>
+                </FinancialAccount>
+            </FinancialParty>
+            <UserArea>
+                <Property sequence="1">
+                    <NameValue name="User defined 1">X</NameValue>
+                </Property>
+                <Property sequence="2">
+                    <NameValue name="User defined 3">xx</NameValue>
+                </Property>
+                <Property sequence="3">
+                    <NameValue name="PaymentDenied">false</NameValue>
+                </Property>
+                <Property sequence="4">
+                    <NameValue name="OrderFormat">none</NameValue>
+                </Property>
+                <Property sequence="5">
+                    <NameValue name="TaxCode">1</NameValue>
+                </Property>
+            </UserArea>
+            <Status>
+                <Code>Open</Code>
+                <Description>Approved</Description>
+            </Status>
+            <CurrencyCode name="Sweden Crown">SEK</CurrencyCode>
+            <Classification>
+                <Codes>
+                    <Code sequence="1" listID="Supplier Categories">Supplier</Code>
+                    <Code sequence="2" listID="Supplier Group">999</Code>
+                    <Code sequence="3" listID="Language">SE</Code>
+                    <Code sequence="4" listID="Exchange rate type">1</Code>
+                </Codes>
+            </Classification>
+            <BuyerPersonReference>
+                <IDs>
+                    <ID accountingEntity="100_">999</ID>
+                </IDs>
+                <Name/>
+            </BuyerPersonReference>
+        </SupplierPartyMaster>
+    </DataArea>
+</SyncSupplierPartyMaster>

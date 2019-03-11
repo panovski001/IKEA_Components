@@ -1,0 +1,32 @@
+{
+    "class_id": "com-snaplogic-snaps-binary-binarybasicauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "ikea_comp_test"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SFTP-Alusta"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "password": {
+                "expression": false,
+                "fp": "130a83cb9e80e4230b013881ad50e26d5d7745d55cf52d11c4a237bdda1265a8",
+                "key": "account-cloud-managed-5c46bfd317f60c09d026aecf-2019-01-22T07:05:40-714239+00:00",
+                "sym_iv": "w46iRSZ3TeDV+1vlz82PIw==",
+                "sym_key": "y83YnHI8mr9eEkYgnpzCUzUM2Kd8neR6ExBmJ52dT07ohzDbthECeXX5iaYG/3noSaHotUufMXWiVGTqBcBsUJM75MHF11QwgopWJqFH719U+MeK4HpD0XJCIWMt14gBXTZAxuUgPOsiWAZ8Y0M3oydRAfZCn81qZHoxXzYWUZkgeZPMNtONPc/tmQ59zsgC7Tm8rSHy7r2z+qszhjwL5wqxf3oIizshHYFyPXbc01P1LPSVCt7vvYjGliJGllE0OxsUIu04UtDYY2N8U89+za1Q31r4/K7xGE7MTQXzMmx429YA4xU7OOOVVY0RloEgPfBw5wt5/oxvZMrG9IJSGQ==",
+                "value": "2sozyIPLEjC7CoRXeP4F40UrlRfwZ4BZDdoaQSKY4XI="
+            },
+            "username": {
+                "expression": false,
+                "value": "snap_alusta_test"
+            }
+        },
+        "view_serial": 100
+    }
+}

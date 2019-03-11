@@ -1,0 +1,99 @@
+<SyncSupplierPartyMaster xmlns="http://schema.infor.com/InforOAGIS/2" releaseID="9.2" versionID="2.9.1" systemEnvironmentCode="Production" languageCode="GB">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID schemeVersionID="15.5.2.001">lid://IK3A8021.wmikea.com</LogicalID>
+			<ComponentID schemeVersionID="MCP6-1514-01">M3BE</ComponentID>
+			<ConfirmationCode>OnError</ConfirmationCode>
+		</Sender>
+		<CreationDateTime>2019-02-18T14:40:24.322Z</CreationDateTime>
+		<BODID>45660765-37cd-4a25-9236-3974a54dfaf8</BODID>
+	</ApplicationArea>
+	<DataArea>
+		<Sync>
+			<AccountingEntityID>100_</AccountingEntityID>
+			<ActionCriteria>
+				<ActionExpression actionCode="Replace"/>
+			</ActionCriteria>
+		</Sync>
+		<SupplierPartyMaster>
+			<PartyIDs>
+				<ID accountingEntity="100_" lid="lid://IK3A8021.wmikea.com">53009684</ID>
+				<DisplayID>53009684</DisplayID>
+				<TaxID schemeName="CountryIdentificationNumber">556633-1871</TaxID>
+				<TaxID schemeName="TaxIdentificationNumber">556633187101</TaxID>
+				<SCACID/>
+			</PartyIDs>
+			<LastModificationDateTime>2019-02-18T14:02:24Z</LastModificationDateTime>
+			<LastModificationPerson>
+				<IDs>
+					<ID accountingEntity="100_">NIAND24</ID>
+				</IDs>
+				<Name>Niclas Andersson/iStone</Name>
+				<UserID accountingEntity="100_">NIAND24</UserID>
+			</LastModificationPerson>
+			<Name>Oribi AB.</Name>
+			<Location>
+				<Address type="text">
+					<ID accountingEntity="100_">1-POSTAL</ID>
+					<AddressLine sequence="1">Bredgatan 2</AddressLine>
+					<AddressLine sequence="3">222 21  Lund</AddressLine>
+					<CountrySubDivisionCode listID=""/>
+					<CountryCode listID="Countries">SE</CountryCode>
+					<Status>
+						<EffectiveDateTime>2015-01-01</EffectiveDateTime>
+					</Status>
+				</Address>
+			</Location>
+			<Communication sequence="1" preferredIndicator="false">
+				<ChannelCode listID="Communication Channels">Phone</ChannelCode>
+				<UseCode listID="Communication Use Codes">Office</UseCode>
+				<DialNumber>046-323012</DialNumber>
+				<Preference>
+					<Indicator>false</Indicator>
+				</Preference>
+			</Communication>
+			<Contact>
+				<Communication preferredIndicator="false">
+					<ChannelCode listID="Communication Channels">Phone</ChannelCode>
+					<UseCode listID="Communication Use Codes">Office</UseCode>
+					<DialNumber>046-323012</DialNumber>
+					<Preference>
+						<Indicator>false</Indicator>
+					</Preference>
+				</Communication>
+			</Contact>
+			<PaymentTermID>100</PaymentTermID>
+			<PaymentMethodCode listID="Payment Methods">BGS</PaymentMethodCode>
+			<UserArea>
+				<Property sequence="1">
+					<NameValue name="User defined 1">X</NameValue>
+				</Property>
+				<Property sequence="2">
+					<NameValue name="User defined 3">xx</NameValue>
+				</Property>
+				<Property sequence="3">
+					<NameValue name="User defined 5">x</NameValue>
+				</Property>
+			</UserArea>
+			<Status>
+				<Code>Deleted</Code>
+				<Description>Deactivated (to be deleted)</Description>
+			</Status>
+			<CurrencyCode name="Sweden Crown">SEK</CurrencyCode>
+			<Classification>
+				<Codes>
+					<Code sequence="1" listID="Supplier Categories">Supplier</Code>
+					<Code sequence="2" listID="Supplier Group">999</Code>
+					<Code sequence="3" listID="Language">SE</Code>
+					<Code sequence="4" listID="Exchange rate type">1</Code>
+				</Codes>
+			</Classification>
+			<BuyerPersonReference>
+				<IDs>
+					<ID accountingEntity="100_">999</ID>
+				</IDs>
+				<Name/>
+			</BuyerPersonReference>
+		</SupplierPartyMaster>
+	</DataArea>
+</SyncSupplierPartyMaster>

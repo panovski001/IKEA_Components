@@ -1,0 +1,98 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-sqlserverdatabaseaccount",
+    "class_version": 3,
+    "migration_metadata": {
+        "source_org": "ikea_comp_test"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "CBD"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": [
+                            {
+                                "urlPropertyName": {
+                                    "value": "selectMethod"
+                                },
+                                "urlPropertyValue": {
+                                    "value": "cursor"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "CBD"
+                    },
+                    "hostname": {
+                        "value": "ik3a8004.wmikea.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                    },
+                    "password": {
+                        "fp": "130a83cb9e80e4230b013881ad50e26d5d7745d55cf52d11c4a237bdda1265a8",
+                        "key": "account-cloud-managed-5c46bfd317f60c09d026aecf-2019-01-22T07:05:40-714239+00:00",
+                        "sym_iv": "jYEb+V85iIP/iaUHuJRi4w==",
+                        "sym_key": "t/Vrac5dDnEn9KpTpSzWpATRZEbqU/yj2gqIdTZMvu3ZgkJmPpGcmuk5DELT205GdBViGtmc9/PF9VFMit9I7/UAdkmcAtmmZV/6IenrhdfcPhmFvqMlCswoahM4V/FCTrAMihm88hAhrY5reKVPsBRAcKC9Oj59Sg5Oqxsdop3qDCbEUgAl+pTmvz3/iRE3dDstSeAcbkjDfCE0+IkerXvMv/2YWgzlbVB0WcdXTnRQ2OIoCN/aeDxOM+/v9EcAFFxM6wrWRzrYr6qFz2npX5+WMwEA931nXEXTY6iY4CXFxSzMdg/o7PkmzOZiRfPFgGcgPJ1chHbmE5SKoaoh2w==",
+                        "value": "WYsU9XqJ+WuRac0qWwjF9uy5S0r6xgQxS0rbQ/MSAfo="
+                    },
+                    "portNumber": {
+                        "value": 1433
+                    },
+                    "username": {
+                        "value": "ICIPUSER"
+                    },
+                    "version": {
+                        "value": "SQLSERVER2008"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
